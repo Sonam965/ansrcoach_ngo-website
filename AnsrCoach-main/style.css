@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(floralwhite,lightskyblue);
+    scroll-behavior: smooth;
+}
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+  #myBtn:hover{
+    background-color: #555;
+}
+
+.active{
+    font-weight: bold;
+}
+.active:hover{
+    font-weight: bold;
+}
+nav a:hover{
+    font-weight:600;
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+    color:rgb(255, 0, 0);
+}
+.facebook:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.twitter:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.comment:hover{
+    color: rgb(131, 7, 7);
+    cursor: pointer;
+}
